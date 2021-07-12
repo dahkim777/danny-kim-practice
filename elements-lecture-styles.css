@@ -1,0 +1,34 @@
+body, h1, h2, h3 {
+    margin: 0;
+}
+
+p{
+    color: green;
+}
+
+p{
+    color: red;
+}
+
+.class-name {
+    /* height: 400px; */
+    /* height: 50%; */
+    height: 400px;
+}
+
+#danger-text{
+    font-size: 100px;
+    color: red;
+}
+
+/* This is creating an .ingredient class on the span element */
+span.ingredient {
+    color: #f00;
+}
+
+/* In CSS we can create classes and call those classes on our elements to style them */
+.example-class {
+    color: aqua;
+    background-color: blue;
+    
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Lecture Notes</title>
+
+<!-- This is the link to our style sheet, we will talk more about this later -->
+    <link rel="stylesheet" href="elements-lecture-styles.css">   
+</head>
+
+<body>
+
+<!-- h1 - h6, Section Heading Elements -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements -->
+<h1 id="danger-text">This is a Large Heading!</h1>
+
+
+
+<h6>This is a small heading!</h6>
+<h3>This is a medium heading</h3>
+
+<!-- p tags, aka Paragraph Elements -->
+<p>This is the paragraph tag </p>
+<p>We call this the 'p' tag</p>
+
+<!-- Lists -->
+<!-- The unordered list -->
+<ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+    <li>Durian</li>
+</ul>
+<!-- The ordered list -->
+<ol>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+    <li>Durian</li>
+</ol>
+
+
+
+<!-- Anchor Tags -->
+<a href=""></a>
+<!-- Anchor tags are used to create links -->
+<!-- You can link to elements inside your webpage or to other web-pages on the internet -->
+<a href="#contacts-header">Contacts</a>
+<br>
+<br>
+<br>
+
+<h2 id="contacts-header">Contacts</h2>
+
+<!-- you can nest other elements inside an anchor tag to make those elements clickable! -->
+<a href="www.google.com"><p>Now this paragraph text can link to Google!</p></a>
+<a href=""><H1>Now this Header can link to yahoo.com!</H1></a>
+
+
+<!-- Image Tags -->
+<!-- You can create an image tag with the syntax below -->
+<img 
+src="" 
+alt="">
+
+<!-- (ACCESSIBILITY) All img elements must have an alt attribute. 
+    The text inside an alt attribute is used for screen readers to improve accessibility 
+    and is displayed if the image fails to load. -->
+<img 
+src="rick-morty-portal.jpg" 
+alt="A Picture of the cartoon characters Rick and Morty jumping out of a swirling green circular portal"
+class="class-name">
+
+<!-- Note, the source can also be an url from something online -->
+
+
+<!-- The Span Element -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span -->
+<p>Add the <span class="ingredient">basil</span>, <span class="ingredient">pine nuts</span> and <span class="ingredient">garlic</span> to a blender and blend into a paste.</p>
+
+<p>Gradually add the <span class="ingredient">olive oil</span> while running the blender slowly.</p>
+
+<!-- The HTML <span> element is a generic inline container for phrasing content, 
+    which does not inherently represent anything. 
+    It can be used to group elements for styling purposes (using the class or id attributes),
+    It should be used only when no other semantic element is appropriate. 
+    <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline element. -->
+
+<!-- The div Element!! -->
+<!-- div elements are generic container elements often used for styling and page flow, 
+    we will talk much more about divs tomorrow when we start learning CSS -->
+    <!-- Think of div elements as boxes or containers/wrappers -->
+    <div><p>A Div is wrapping a p tag</p></div>
+    <div></div> <!-- an empty div -->
+
+<br>
+<br>
+<br>
+
+
+
+<a href="#">
+    <img src="https://bit.ly/fcc-relaxing-cat" 
+    alt="A cute orange cat lying on its back."
+   class="class-name">
+</a>
+
+<!-- Form element, with the action attribute -->
+<form action="https://freecatphotoapp.com/submit-cat-photo">
+<!-- Text input with a reed attribute  -->
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+</form>
+
+
+
+
+
+    
+</body>
+</html>
